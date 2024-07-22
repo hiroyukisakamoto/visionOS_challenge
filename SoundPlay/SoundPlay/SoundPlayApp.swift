@@ -1,6 +1,6 @@
 //
-//  Ai_animationApp.swift
-//  Ai animation
+//  SoundPlayApp.swift
+//  SoundPlay
 //
 //  Created by jetz on 2024/07/21.
 //
@@ -8,7 +8,7 @@
 import SwiftUI
 
 @main
-struct Ai_animationApp: App {
+struct SoundPlayApp: App {
     var body: some Scene {
         WindowGroup {
             ContentView()

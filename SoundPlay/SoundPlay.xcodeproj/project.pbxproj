@@ -7,79 +7,85 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		492210232C4CE29900E76C71 /* RealityKitContent in Frameworks */ = {isa = PBXBuildFile; productRef = 492210222C4CE29900E76C71 /* RealityKitContent */; };
-		492210252C4CE29900E76C71 /* Ai_animationApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 492210242C4CE29900E76C71 /* Ai_animationApp.swift */; };
-		492210272C4CE29900E76C71 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 492210262C4CE29900E76C71 /* ContentView.swift */; };
-		492210292C4CE29900E76C71 /* ImmersiveView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 492210282C4CE29900E76C71 /* ImmersiveView.swift */; };
-		4922102B2C4CE29B00E76C71 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4922102A2C4CE29B00E76C71 /* Assets.xcassets */; };
-		4922102E2C4CE29B00E76C71 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4922102D2C4CE29B00E76C71 /* Preview Assets.xcassets */; };
+		496CB94E2C4D430A0060A58E /* RealityKitContent in Frameworks */ = {isa = PBXBuildFile; productRef = 496CB94D2C4D430A0060A58E /* RealityKitContent */; };
+		496CB9502C4D430A0060A58E /* SoundPlayApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 496CB94F2C4D430A0060A58E /* SoundPlayApp.swift */; };
+		496CB9522C4D430A0060A58E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 496CB9512C4D430A0060A58E /* ContentView.swift */; };
+		496CB9542C4D430A0060A58E /* ImmersiveView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 496CB9532C4D430A0060A58E /* ImmersiveView.swift */; };
+		496CB9562C4D430C0060A58E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 496CB9552C4D430C0060A58E /* Assets.xcassets */; };
+		496CB9592C4D430C0060A58E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 496CB9582C4D430C0060A58E /* Preview Assets.xcassets */; };
+		496CB9612C4D434D0060A58E /* soundPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 496CB9602C4D434D0060A58E /* soundPlayer.swift */; };
+		496CB9632C4D43820060A58E /* ButtonImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 496CB9622C4D43820060A58E /* ButtonImageView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		4922101D2C4CE29900E76C71 /* Ai animation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Ai animation.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		492210212C4CE29900E76C71 /* RealityKitContent */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = RealityKitContent; sourceTree = "<group>"; };
-		492210242C4CE29900E76C71 /* Ai_animationApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ai_animationApp.swift; sourceTree = "<group>"; };
-		492210262C4CE29900E76C71 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		492210282C4CE29900E76C71 /* ImmersiveView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImmersiveView.swift; sourceTree = "<group>"; };
-		4922102A2C4CE29B00E76C71 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		4922102D2C4CE29B00E76C71 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		4922102F2C4CE29B00E76C71 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		496CB9482C4D430A0060A58E /* SoundPlay.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SoundPlay.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		496CB94C2C4D430A0060A58E /* RealityKitContent */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = RealityKitContent; sourceTree = "<group>"; };
+		496CB94F2C4D430A0060A58E /* SoundPlayApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoundPlayApp.swift; sourceTree = "<group>"; };
+		496CB9512C4D430A0060A58E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		496CB9532C4D430A0060A58E /* ImmersiveView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImmersiveView.swift; sourceTree = "<group>"; };
+		496CB9552C4D430C0060A58E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		496CB9582C4D430C0060A58E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		496CB95A2C4D430C0060A58E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		496CB9602C4D434D0060A58E /* soundPlayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = soundPlayer.swift; sourceTree = "<group>"; };
+		496CB9622C4D43820060A58E /* ButtonImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonImageView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		4922101A2C4CE29900E76C71 /* Frameworks */ = {
+		496CB9452C4D430A0060A58E /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				492210232C4CE29900E76C71 /* RealityKitContent in Frameworks */,
+				496CB94E2C4D430A0060A58E /* RealityKitContent in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		492210142C4CE29900E76C71 = {
+		496CB93F2C4D430A0060A58E = {
 			isa = PBXGroup;
 			children = (
-				4922101F2C4CE29900E76C71 /* Ai animation */,
-				492210202C4CE29900E76C71 /* Packages */,
-				4922101E2C4CE29900E76C71 /* Products */,
+				496CB94A2C4D430A0060A58E /* SoundPlay */,
+				496CB94B2C4D430A0060A58E /* Packages */,
+				496CB9492C4D430A0060A58E /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		4922101E2C4CE29900E76C71 /* Products */ = {
+		496CB9492C4D430A0060A58E /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				4922101D2C4CE29900E76C71 /* Ai animation.app */,
+				496CB9482C4D430A0060A58E /* SoundPlay.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		4922101F2C4CE29900E76C71 /* Ai animation */ = {
+		496CB94A2C4D430A0060A58E /* SoundPlay */ = {
 			isa = PBXGroup;
 			children = (
-				492210242C4CE29900E76C71 /* Ai_animationApp.swift */,
-				492210262C4CE29900E76C71 /* ContentView.swift */,
-				492210282C4CE29900E76C71 /* ImmersiveView.swift */,
-				4922102A2C4CE29B00E76C71 /* Assets.xcassets */,
-				4922102F2C4CE29B00E76C71 /* Info.plist */,
-				4922102C2C4CE29B00E76C71 /* Preview Content */,
+				496CB94F2C4D430A0060A58E /* SoundPlayApp.swift */,
+				496CB9512C4D430A0060A58E /* ContentView.swift */,
+				496CB9602C4D434D0060A58E /* soundPlayer.swift */,
+				496CB9622C4D43820060A58E /* ButtonImageView.swift */,
+				496CB9532C4D430A0060A58E /* ImmersiveView.swift */,
+				496CB9552C4D430C0060A58E /* Assets.xcassets */,
+				496CB95A2C4D430C0060A58E /* Info.plist */,
+				496CB9572C4D430C0060A58E /* Preview Content */,
 			);
-			path = "Ai animation";
+			path = SoundPlay;
 			sourceTree = "<group>";
 		};
-		492210202C4CE29900E76C71 /* Packages */ = {
+		496CB94B2C4D430A0060A58E /* Packages */ = {
 			isa = PBXGroup;
 			children = (
-				492210212C4CE29900E76C71 /* RealityKitContent */,
+				496CB94C2C4D430A0060A58E /* RealityKitContent */,
 			);
 			path = Packages;
 			sourceTree = "<group>";
 		};
-		4922102C2C4CE29B00E76C71 /* Preview Content */ = {
+		496CB9572C4D430C0060A58E /* Preview Content */ = {
 			isa = PBXGroup;
 			children = (
-				4922102D2C4CE29B00E76C71 /* Preview Assets.xcassets */,
+				496CB9582C4D430C0060A58E /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
 			sourceTree = "<group>";
@@ -87,42 +93,42 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		4922101C2C4CE29900E76C71 /* Ai animation */ = {
+		496CB9472C4D430A0060A58E /* SoundPlay */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 492210322C4CE29B00E76C71 /* Build configuration list for PBXNativeTarget "Ai animation" */;
+			buildConfigurationList = 496CB95D2C4D430C0060A58E /* Build configuration list for PBXNativeTarget "SoundPlay" */;
 			buildPhases = (
-				492210192C4CE29900E76C71 /* Sources */,
-				4922101A2C4CE29900E76C71 /* Frameworks */,
-				4922101B2C4CE29900E76C71 /* Resources */,
+				496CB9442C4D430A0060A58E /* Sources */,
+				496CB9452C4D430A0060A58E /* Frameworks */,
+				496CB9462C4D430A0060A58E /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = "Ai animation";
+			name = SoundPlay;
 			packageProductDependencies = (
-				492210222C4CE29900E76C71 /* RealityKitContent */,
+				496CB94D2C4D430A0060A58E /* RealityKitContent */,
 			);
-			productName = "Ai animation";
-			productReference = 4922101D2C4CE29900E76C71 /* Ai animation.app */;
+			productName = SoundPlay;
+			productReference = 496CB9482C4D430A0060A58E /* SoundPlay.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		492210152C4CE29900E76C71 /* Project object */ = {
+		496CB9402C4D430A0060A58E /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1540;
 				LastUpgradeCheck = 1540;
 				TargetAttributes = {
-					4922101C2C4CE29900E76C71 = {
+					496CB9472C4D430A0060A58E = {
 						CreatedOnToolsVersion = 15.4;
 					};
 				};
 			};
-			buildConfigurationList = 492210182C4CE29900E76C71 /* Build configuration list for PBXProject "Ai animation" */;
+			buildConfigurationList = 496CB9432C4D430A0060A58E /* Build configuration list for PBXProject "SoundPlay" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -130,43 +136,45 @@
 				en,
 				Base,
 			);
-			mainGroup = 492210142C4CE29900E76C71;
-			productRefGroup = 4922101E2C4CE29900E76C71 /* Products */;
+			mainGroup = 496CB93F2C4D430A0060A58E;
+			productRefGroup = 496CB9492C4D430A0060A58E /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				4922101C2C4CE29900E76C71 /* Ai animation */,
+				496CB9472C4D430A0060A58E /* SoundPlay */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		4922101B2C4CE29900E76C71 /* Resources */ = {
+		496CB9462C4D430A0060A58E /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4922102E2C4CE29B00E76C71 /* Preview Assets.xcassets in Resources */,
-				4922102B2C4CE29B00E76C71 /* Assets.xcassets in Resources */,
+				496CB9592C4D430C0060A58E /* Preview Assets.xcassets in Resources */,
+				496CB9562C4D430C0060A58E /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		492210192C4CE29900E76C71 /* Sources */ = {
+		496CB9442C4D430A0060A58E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				492210272C4CE29900E76C71 /* ContentView.swift in Sources */,
-				492210252C4CE29900E76C71 /* Ai_animationApp.swift in Sources */,
-				492210292C4CE29900E76C71 /* ImmersiveView.swift in Sources */,
+				496CB9632C4D43820060A58E /* ButtonImageView.swift in Sources */,
+				496CB9522C4D430A0060A58E /* ContentView.swift in Sources */,
+				496CB9502C4D430A0060A58E /* SoundPlayApp.swift in Sources */,
+				496CB9612C4D434D0060A58E /* soundPlayer.swift in Sources */,
+				496CB9542C4D430A0060A58E /* ImmersiveView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		492210302C4CE29B00E76C71 /* Debug */ = {
+		496CB95B2C4D430C0060A58E /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -229,7 +237,7 @@
 			};
 			name = Debug;
 		};
-		492210312C4CE29B00E76C71 /* Release */ = {
+		496CB95C2C4D430C0060A58E /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -285,14 +293,14 @@
 			};
 			name = Release;
 		};
-		492210332C4CE29B00E76C71 /* Debug */ = {
+		496CB95E2C4D430C0060A58E /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"Ai animation/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"SoundPlay/Preview Content\"";
 				DEVELOPMENT_TEAM = JXF8YR39X7;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -302,7 +310,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.hiroyukisakamoto.Ai-animation";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hiroyukisakamoto.SoundPlay;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SUPPORTED_PLATFORMS = "xros xrsimulator";
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -311,14 +319,14 @@
 			};
 			name = Debug;
 		};
-		492210342C4CE29B00E76C71 /* Release */ = {
+		496CB95F2C4D430C0060A58E /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"Ai animation/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"SoundPlay/Preview Content\"";
 				DEVELOPMENT_TEAM = JXF8YR39X7;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -328,7 +336,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.hiroyukisakamoto.Ai-animation";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hiroyukisakamoto.SoundPlay;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SUPPORTED_PLATFORMS = "xros xrsimulator";
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -340,20 +348,20 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		492210182C4CE29900E76C71 /* Build configuration list for PBXProject "Ai animation" */ = {
+		496CB9432C4D430A0060A58E /* Build configuration list for PBXProject "SoundPlay" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				492210302C4CE29B00E76C71 /* Debug */,
-				492210312C4CE29B00E76C71 /* Release */,
+				496CB95B2C4D430C0060A58E /* Debug */,
+				496CB95C2C4D430C0060A58E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		492210322C4CE29B00E76C71 /* Build configuration list for PBXNativeTarget "Ai animation" */ = {
+		496CB95D2C4D430C0060A58E /* Build configuration list for PBXNativeTarget "SoundPlay" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				492210332C4CE29B00E76C71 /* Debug */,
-				492210342C4CE29B00E76C71 /* Release */,
+				496CB95E2C4D430C0060A58E /* Debug */,
+				496CB95F2C4D430C0060A58E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -361,11 +369,11 @@
 /* End XCConfigurationList section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		492210222C4CE29900E76C71 /* RealityKitContent */ = {
+		496CB94D2C4D430A0060A58E /* RealityKitContent */ = {
 			isa = XCSwiftPackageProductDependency;
 			productName = RealityKitContent;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};
-	rootObject = 492210152C4CE29900E76C71 /* Project object */;
+	rootObject = 496CB9402C4D430A0060A58E /* Project object */;
 }
