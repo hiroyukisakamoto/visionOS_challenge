@@ -14,6 +14,7 @@
 		493F94E92C4E13CA00A79B8F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 493F94E82C4E13CA00A79B8F /* Assets.xcassets */; };
 		493F94EC2C4E13CA00A79B8F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 493F94EB2C4E13CA00A79B8F /* Preview Assets.xcassets */; };
 		493F94F42C4E156E00A79B8F /* Apple-vision-pro_3D_Model.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 493F94F32C4E156D00A79B8F /* Apple-vision-pro_3D_Model.usdz */; };
+		493F94F62C4E17D200A79B8F /* soundPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 493F94F52C4E17D200A79B8F /* soundPlayer.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		493F94EB2C4E13CA00A79B8F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		493F94ED2C4E13CA00A79B8F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		493F94F32C4E156D00A79B8F /* Apple-vision-pro_3D_Model.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = "Apple-vision-pro_3D_Model.usdz"; sourceTree = SOURCE_ROOT; };
+		493F94F52C4E17D200A79B8F /* soundPlayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = soundPlayer.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 				493F94F32C4E156D00A79B8F /* Apple-vision-pro_3D_Model.usdz */,
 				493F94E22C4E13C800A79B8F /* objectRotate_soundApp.swift */,
 				493F94E42C4E13C800A79B8F /* ContentView.swift */,
+				493F94F52C4E17D200A79B8F /* soundPlayer.swift */,
 				493F94E62C4E13C800A79B8F /* ImmersiveView.swift */,
 				493F94E82C4E13CA00A79B8F /* Assets.xcassets */,
 				493F94ED2C4E13CA00A79B8F /* Info.plist */,
@@ -163,6 +166,7 @@
 			files = (
 				493F94E52C4E13C800A79B8F /* ContentView.swift in Sources */,
 				493F94E32C4E13C800A79B8F /* objectRotate_soundApp.swift in Sources */,
+				493F94F62C4E17D200A79B8F /* soundPlayer.swift in Sources */,
 				493F94E72C4E13C800A79B8F /* ImmersiveView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
