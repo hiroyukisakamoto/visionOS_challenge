@@ -1,0 +1,36 @@
+<svg width="708" height="708" viewBox="0 0 708 708" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g filter="url(#filter0_d_1_297)">
+<path d="M652.244 331.587C652.244 496.491 518.562 630.173 353.657 630.173C188.752 630.173 55.0707 496.491 55.0707 331.587C55.0707 166.682 188.752 33 353.657 33C518.562 33 652.244 166.682 652.244 331.587Z" fill="#081939"/>
+<path d="M652.244 331.587C652.244 496.491 518.562 630.173 353.657 630.173C188.752 630.173 55.0707 496.491 55.0707 331.587C55.0707 166.682 188.752 33 353.657 33C518.562 33 652.244 166.682 652.244 331.587Z" fill="url(#paint0_radial_1_297)" fill-opacity="0.9"/>
+<path d="M652.244 331.587C652.244 496.491 518.562 630.173 353.657 630.173C188.752 630.173 55.0707 496.491 55.0707 331.587C55.0707 166.682 188.752 33 353.657 33C518.562 33 652.244 166.682 652.244 331.587Z" fill="url(#paint1_radial_1_297)" fill-opacity="0.85"/>
+<path d="M652.244 331.587C652.244 496.491 518.562 630.173 353.657 630.173C188.752 630.173 55.0707 496.491 55.0707 331.587C55.0707 166.682 188.752 33 353.657 33C518.562 33 652.244 166.682 652.244 331.587Z" fill="url(#paint2_radial_1_297)" fill-opacity="0.8"/>
+<path d="M652.244 331.587C652.244 496.491 518.562 630.173 353.657 630.173C188.752 630.173 55.0707 496.491 55.0707 331.587C55.0707 166.682 188.752 33 353.657 33C518.562 33 652.244 166.682 652.244 331.587Z" fill="url(#paint3_radial_1_297)" fill-opacity="0.88"/>
+</g>
+<defs>
+<filter id="filter0_d_1_297" x="0.0706787" y="0" width="707.173" height="707.173" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+<feOffset dy="22"/>
+<feGaussianBlur stdDeviation="27.5"/>
+<feColorMatrix type="matrix" values="0 0 0 0 0.121569 0 0 0 0 0.145098 0 0 0 0 0.258824 0 0 0 0.63 0"/>
+<feBlend mode="multiply" in2="BackgroundImageFix" result="effect1_dropShadow_1_297"/>
+<feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_1_297" result="shape"/>
+</filter>
+<radialGradient id="paint0_radial_1_297" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(256.485 131.058) rotate(63.1327) scale(224.794 266.666)">
+<stop stop-color="#7D7194"/>
+<stop offset="1" stop-color="#7D7194" stop-opacity="0"/>
+</radialGradient>
+<radialGradient id="paint1_radial_1_297" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(636.345 235.298) rotate(161.19) scale(298.636)">
+<stop stop-color="#4A8F9F"/>
+<stop offset="1" stop-color="#4A8F9F" stop-opacity="0"/>
+</radialGradient>
+<radialGradient id="paint2_radial_1_297" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(452.598 614.275) rotate(-108.939) scale(190.527)">
+<stop stop-color="#5C4763"/>
+<stop offset="1" stop-color="#5C4763" stop-opacity="0"/>
+</radialGradient>
+<radialGradient id="paint3_radial_1_297" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(28.5691 439.362) rotate(-18.3418) scale(342.488 476.067)">
+<stop stop-color="#3D3041"/>
+<stop offset="1" stop-color="#3D3041" stop-opacity="0"/>
+</radialGradient>
+</defs>
+</svg>
