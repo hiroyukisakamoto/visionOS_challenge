@@ -13,7 +13,7 @@
 		4922106B2C4CE68800E76C71 /* ImmersiveView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4922106A2C4CE68800E76C71 /* ImmersiveView.swift */; };
 		4922106D2C4CE68A00E76C71 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4922106C2C4CE68A00E76C71 /* Assets.xcassets */; };
 		492210702C4CE68A00E76C71 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4922106F2C4CE68A00E76C71 /* Preview Assets.xcassets */; };
-		492210782C4CE6B900E76C71 /* Apple-vision-pro_3D_Model.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 492210772C4CE6B900E76C71 /* Apple-vision-pro_3D_Model.usdz */; };
+		495CAD6E2C4E0EAD00109E2F /* Apple-vision-pro_3D_Model.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 495CAD6D2C4E0EAD00109E2F /* Apple-vision-pro_3D_Model.usdz */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,7 +25,7 @@
 		4922106C2C4CE68A00E76C71 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4922106F2C4CE68A00E76C71 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		492210712C4CE68A00E76C71 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		492210772C4CE6B900E76C71 /* Apple-vision-pro_3D_Model.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; name = "Apple-vision-pro_3D_Model.usdz"; path = "../../3D Rotate/3D Rotate/VisionPro/Apple-vision-pro_3D_Model.usdz"; sourceTree = "<group>"; };
+		495CAD6D2C4E0EAD00109E2F /* Apple-vision-pro_3D_Model.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = "Apple-vision-pro_3D_Model.usdz"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,7 +60,7 @@
 		492210612C4CE68800E76C71 /* objectRotate */ = {
 			isa = PBXGroup;
 			children = (
-				492210772C4CE6B900E76C71 /* Apple-vision-pro_3D_Model.usdz */,
+				495CAD6D2C4E0EAD00109E2F /* Apple-vision-pro_3D_Model.usdz */,
 				492210662C4CE68800E76C71 /* objectRotateApp.swift */,
 				492210682C4CE68800E76C71 /* ContentView.swift */,
 				4922106A2C4CE68800E76C71 /* ImmersiveView.swift */,
@@ -149,7 +149,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				492210702C4CE68A00E76C71 /* Preview Assets.xcassets in Resources */,
-				492210782C4CE6B900E76C71 /* Apple-vision-pro_3D_Model.usdz in Resources */,
+				495CAD6E2C4E0EAD00109E2F /* Apple-vision-pro_3D_Model.usdz in Resources */,
 				4922106D2C4CE68A00E76C71 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

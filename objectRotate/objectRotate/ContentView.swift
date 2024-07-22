@@ -1,16 +1,11 @@
-//
-//  ContentView.swift
-//  objectRotate
-//
-//  Created by jetz on 2024/07/21.
-//
-
 import SwiftUI
 import RealityKit
 import RealityKitContent
 
 struct ContentView: View {
     @State private var isRotating = 0.0
+    @State private var isDragging = false
+    
     var body: some View {
         NavigationStack {
             Model3D(named: "Apple-vision-pro_3D_Model") { visionPro in
@@ -26,9 +21,9 @@ struct ContentView: View {
                 ToolbarItem(placement: .bottomOrnament){
                     VStack {
                         Slider(value: $isRotating, in: 0...359)
-                            .frame(width: 360)
-                            .padding()
-                        Text("rotationw bar")
+                        .frame(width: 360)
+                        .padding()
+                        Text("Rotate")
                     }
                 }
             }
