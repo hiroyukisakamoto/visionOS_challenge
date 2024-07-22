@@ -12,8 +12,6 @@ struct hello_worldApp: App {
     var body: some Scene {
         WindowGroup() {
             ContentView()
-                .glassBackgroundEffect()
-                .frame(width: 1280, height: 720)
-        }
+        }.windowStyle(.volumetric)
     }
 }
