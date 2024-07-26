@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4984BDF12C52276F007D7B41 /* SplashView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4984BDF02C52276F007D7B41 /* SplashView.swift */; };
+		4984BDF32C5227BB007D7B41 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4984BDF22C5227BB007D7B41 /* HomeView.swift */; };
 		498976B72C51FDEA00C339F9 /* RealityKitContent in Frameworks */ = {isa = PBXBuildFile; productRef = 498976B62C51FDEA00C339F9 /* RealityKitContent */; };
 		498976B92C51FDEA00C339F9 /* SneakersAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 498976B82C51FDEA00C339F9 /* SneakersAppApp.swift */; };
 		498976BF2C51FDEC00C339F9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 498976BE2C51FDEC00C339F9 /* Assets.xcassets */; };
@@ -15,6 +17,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4984BDF02C52276F007D7B41 /* SplashView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashView.swift; sourceTree = "<group>"; };
+		4984BDF22C5227BB007D7B41 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		498976B12C51FDEA00C339F9 /* SneakersApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SneakersApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		498976B52C51FDEA00C339F9 /* RealityKitContent */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = RealityKitContent; sourceTree = "<group>"; };
 		498976B82C51FDEA00C339F9 /* SneakersAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SneakersAppApp.swift; sourceTree = "<group>"; };
@@ -85,6 +89,8 @@
 			isa = PBXGroup;
 			children = (
 				498976BA2C51FDEA00C339F9 /* ContentView.swift */,
+				4984BDF02C52276F007D7B41 /* SplashView.swift */,
+				4984BDF22C5227BB007D7B41 /* HomeView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -163,6 +169,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				498976CC2C5219D200C339F9 /* ContentView.swift in Sources */,
+				4984BDF32C5227BB007D7B41 /* HomeView.swift in Sources */,
+				4984BDF12C52276F007D7B41 /* SplashView.swift in Sources */,
 				498976B92C51FDEA00C339F9 /* SneakersAppApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
