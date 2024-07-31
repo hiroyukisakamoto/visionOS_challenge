@@ -1,15 +1,24 @@
-//
-//  Splash.swift
-//  SneakersApp
-//
-//  Created by jetz on 2024/07/25.
-//
-
 import SwiftUI
 
+struct ParentView: View {
+    @State private var isSplashPresented = true
+    
+    var body: some View {
+        ZStack {
+            if isSplashPresented {
+                SplashView(isPresented: $isSplashPresented)
+            } else {
+                TabBarView() // `HomeView` または他のメインコンテンツビューに置き換え
+            }
+        }
+    }
+}
+
 struct SplashView: View {
+    @Binding var isPresented: Bool
     @State private var slideIn = false
     @State private var scaleUp = false
+    @State private var fadeOut = false
     
     var body: some View {
         ZStack() {
@@ -30,10 +39,18 @@ struct SplashView: View {
             )
             .scaleEffect(scaleUp ? 1 : 0) // 初期スケールを0に設定
             .animation(.easeInOut(duration: 0.5).delay(1), value: scaleUp)
+            .opacity(fadeOut ? 0 : 1) // フェードアウト用の透明度
+            .animation(.easeInOut(duration: 0.5), value: fadeOut)
             .onAppear {
                 scaleUp = true // ビューが表示されたときにアニメーションを開始
                 DispatchQueue.main.asyncAfter(deadline: .now() + 1) {
                     slideIn = true // スケールアップアニメーションが完了した後にスライドインを開始
+                }
+                DispatchQueue.main.asyncAfter(deadline: .now() + 4) {
+                    fadeOut = true // 5秒後にフェードアウトを開始
+                }
+                DispatchQueue.main.asyncAfter(deadline: .now() + 5) {
+                    isPresented = false // フェードアウト後に`isPresented`をfalseに設定
                 }
             }
         }
@@ -41,5 +58,5 @@ struct SplashView: View {
 }
 
 #Preview {
-    SplashView()
+    ParentView()
 }
