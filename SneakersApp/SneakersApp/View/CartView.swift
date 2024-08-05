@@ -15,6 +15,8 @@ struct CartView: View {
             Label("", systemImage: "person.fill")
                 .font(.system(size: 50))
         }
+        .frame(width: 1280, height: 720)
+        .glassBackgroundEffect()
     }
 }
 

@@ -2,13 +2,29 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        ParentView()
+        SplashParentView()
     }
 }
 
 #Preview {
     ContentView()
-        .glassBackgroundEffect()
         .cornerRadius(46)
-    // .opacity(0.975)
 }
+
+//struct ContentView: View {
+//    @State private var showDetailView = false
+//
+//    var body: some View {
+//        Button(action: {
+//            showDetailView = true
+//        }) {
+//            Text("Go to Detail Page")
+//                .font(.headline)
+//                .padding()
+//                .foregroundColor(.white)
+//        }
+//        .fullScreenCover(isPresented: $showDetailView) {
+//            ItemDetailView(showDetailView: $showDetailView)
+//        }
+//    }
+//}

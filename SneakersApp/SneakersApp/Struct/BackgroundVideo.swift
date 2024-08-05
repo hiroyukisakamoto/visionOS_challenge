@@ -28,13 +28,13 @@ struct BackgroundVideo: View {
                     player?.isMuted = true
                     player?.play()
                 }
-            //                .onChange(of: isPlaying) { newValue in
-            //                    if newValue {
-            //                        player?.play()
-            //                    } else {
-            //                        player?.pause()
-            //                    }
-            //                }
+            // .onChange(of: isPlaying) { newValue in
+            // if newValue {
+            // player?.play()
+            // } else {
+            // player?.pause()
+            // }
+            // }
                 .onDisappear {
                     player?.pause()
                 }
