@@ -31,7 +31,7 @@ struct SplashView: View {
             }
             .frame(width: 1280, height: 720)
             .background(Color(red: 1, green: 0, blue: 0.08).opacity(0.9))
-            .cornerRadius(46)
+//            .cornerRadius(46)
             .overlay(
                 RoundedRectangle(cornerRadius: 46)
                     .inset(by: 0.50)

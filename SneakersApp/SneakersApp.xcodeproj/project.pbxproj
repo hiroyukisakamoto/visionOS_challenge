@@ -7,13 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		491BD01A2C5A372A00885113 /* ItemDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 491BD0192C5A372A00885113 /* ItemDetailView.swift */; };
+		495854292C5A46FB00A51746 /* SneakersAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 495854282C5A46FB00A51746 /* SneakersAppApp.swift */; };
 		49650AA62C58B1CD00BF60EC /* nikeAirmax.mov in Resources */ = {isa = PBXBuildFile; fileRef = 49650AA52C58B1CD00BF60EC /* nikeAirmax.mov */; };
 		49650AAA2C58CBD200BF60EC /* SearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49650AA92C58CBD200BF60EC /* SearchView.swift */; };
 		49650AAC2C58D41600BF60EC /* CartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49650AAB2C58D41600BF60EC /* CartView.swift */; };
 		49650AAE2C58D8BA00BF60EC /* AccountView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49650AAD2C58D8BA00BF60EC /* AccountView.swift */; };
 		4984BDF12C52276F007D7B41 /* SplashView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4984BDF02C52276F007D7B41 /* SplashView.swift */; };
 		498976B72C51FDEA00C339F9 /* RealityKitContent in Frameworks */ = {isa = PBXBuildFile; productRef = 498976B62C51FDEA00C339F9 /* RealityKitContent */; };
-		498976B92C51FDEA00C339F9 /* SneakersAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 498976B82C51FDEA00C339F9 /* SneakersAppApp.swift */; };
 		498976BF2C51FDEC00C339F9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 498976BE2C51FDEC00C339F9 /* Assets.xcassets */; };
 		498976C22C51FDEC00C339F9 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 498976C12C51FDEC00C339F9 /* Preview Assets.xcassets */; };
 		498976CC2C5219D200C339F9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 498976BA2C51FDEA00C339F9 /* ContentView.swift */; };
@@ -22,6 +23,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		491BD0192C5A372A00885113 /* ItemDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemDetailView.swift; sourceTree = "<group>"; };
+		495854282C5A46FB00A51746 /* SneakersAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SneakersAppApp.swift; sourceTree = "<group>"; };
 		49650AA52C58B1CD00BF60EC /* nikeAirmax.mov */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; path = nikeAirmax.mov; sourceTree = "<group>"; };
 		49650AA92C58CBD200BF60EC /* SearchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchView.swift; sourceTree = "<group>"; };
 		49650AAB2C58D41600BF60EC /* CartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartView.swift; sourceTree = "<group>"; };
@@ -29,7 +32,6 @@
 		4984BDF02C52276F007D7B41 /* SplashView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashView.swift; sourceTree = "<group>"; };
 		498976B12C51FDEA00C339F9 /* SneakersApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SneakersApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		498976B52C51FDEA00C339F9 /* RealityKitContent */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = RealityKitContent; sourceTree = "<group>"; };
-		498976B82C51FDEA00C339F9 /* SneakersAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SneakersAppApp.swift; sourceTree = "<group>"; };
 		498976BA2C51FDEA00C339F9 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		498976BE2C51FDEC00C339F9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		498976C12C51FDEC00C339F9 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
@@ -71,7 +73,7 @@
 			isa = PBXGroup;
 			children = (
 				498976C92C52160000C339F9 /* View */,
-				498976B82C51FDEA00C339F9 /* SneakersAppApp.swift */,
+				495854282C5A46FB00A51746 /* SneakersAppApp.swift */,
 				498976BE2C51FDEC00C339F9 /* Assets.xcassets */,
 				498976C32C51FDEC00C339F9 /* Info.plist */,
 				498976C02C51FDEC00C339F9 /* Preview Content */,
@@ -99,6 +101,7 @@
 			isa = PBXGroup;
 			children = (
 				498976BA2C51FDEA00C339F9 /* ContentView.swift */,
+				491BD0192C5A372A00885113 /* ItemDetailView.swift */,
 				4984BDF02C52276F007D7B41 /* SplashView.swift */,
 				49E37C142C538A950007360F /* HomeView.swift */,
 				49A57F3D2C573AAC00C029EB /* TabBarView.swift */,
@@ -187,11 +190,12 @@
 				498976CC2C5219D200C339F9 /* ContentView.swift in Sources */,
 				49650AAC2C58D41600BF60EC /* CartView.swift in Sources */,
 				49E37C152C538A950007360F /* HomeView.swift in Sources */,
+				491BD01A2C5A372A00885113 /* ItemDetailView.swift in Sources */,
 				49A57F3E2C573AAC00C029EB /* TabBarView.swift in Sources */,
 				49650AAE2C58D8BA00BF60EC /* AccountView.swift in Sources */,
+				495854292C5A46FB00A51746 /* SneakersAppApp.swift in Sources */,
 				4984BDF12C52276F007D7B41 /* SplashView.swift in Sources */,
 				49650AAA2C58CBD200BF60EC /* SearchView.swift in Sources */,
-				498976B92C51FDEA00C339F9 /* SneakersAppApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
