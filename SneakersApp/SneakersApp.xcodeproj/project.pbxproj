@@ -102,10 +102,10 @@
 		498976B32C51FDEA00C339F9 /* SneakersApp */ = {
 			isa = PBXGroup;
 			children = (
-				499B92B82C60ABC600B98696 /* sneaker_pegasustrail.usdz */,
 				4966BE2D2C5B814D00CE453F /* Struct */,
 				498976C92C52160000C339F9 /* View */,
 				495854282C5A46FB00A51746 /* SneakersAppApp.swift */,
+				499B92B82C60ABC600B98696 /* sneaker_pegasustrail.usdz */,
 				498976BE2C51FDEC00C339F9 /* Assets.xcassets */,
 				498976C32C51FDEC00C339F9 /* Info.plist */,
 				498976C02C51FDEC00C339F9 /* Preview Content */,

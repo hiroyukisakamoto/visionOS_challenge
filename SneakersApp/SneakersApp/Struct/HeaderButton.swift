@@ -9,12 +9,14 @@ struct HeaderButton: View {
     let index: Int
     
     @State private var buttonPosition: CGPoint = .zero
+    @Binding var showDetailView: Bool// ItemDetailViewを表示するための状態変数
+    
     
     var body: some View {
         GeometryReader { geometry in
             Button(action: {
                 if index == 0 {
-                    // Action for index 0
+                    showDetailView = true
                 } else {
                     isTextVisible.toggle()
                     isPlaying.toggle()
@@ -33,6 +35,9 @@ struct HeaderButton: View {
             .onPreferenceChange(ViewPositionKey.self) { pos in
                 self.buttonPosition = pos
                 print("Button position: \(pos)")
+            }
+            .fullScreenCover(isPresented: $showDetailView) {
+                ItemDetailView(showDetailView: $showDetailView)  // ItemDetailViewをシートとして表示
             }
         }
     }

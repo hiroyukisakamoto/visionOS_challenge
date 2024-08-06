@@ -17,6 +17,8 @@ struct HomeView: View {
     @State private var currentPage = 0
     @State private var isFullscreen = false
     
+    @State private var showDetailView = false  // 追加
+    
     let videoArray = [
         (""),
         ("nikeAirmax")
@@ -42,11 +44,19 @@ struct HomeView: View {
                         ZStack {
                             BackgroundImage(imageName: imageArray[index], geometry: geometry)
                             if index == 1 {
-                                BackgroundVideo(videoName: videoArray[index], geometry: geometry, isPlaying: $isPlaying, isFullscreen: $isFullscreen)
+                                BackgroundVideo(videoName: videoArray[index],
+                                                geometry: geometry,
+                                                isPlaying: $isPlaying,
+                                                isFullscreen: $isFullscreen)
                             }
-                            HeaderButton(isPlaying: $isPlaying, isTextVisible: $isTextVisible, isFullscreen: $isFullscreen, header: headerArray[index], index: index)
-                                .padding()
-                                .position(x: geometry.size.width / 2, y:400)
+                            HeaderButton(isPlaying: $isPlaying,
+                                         isTextVisible: $isTextVisible,
+                                         isFullscreen: $isFullscreen,
+                                         header: headerArray[index],
+                                         index: index,
+                                         showDetailView: $showDetailView)
+                            .padding()
+                            .position(x: geometry.size.width / 2, y:400)
                             
                             if isTextVisible || index != 1 {
                                 HStack(){
@@ -56,11 +66,11 @@ struct HomeView: View {
                                     Image("NikeLogo")
                                         .position(x: 640, y: 850)
                                         .scaleEffect(0.5)
-                                        
+                                    
                                 }
                             }
                         }
-                        //                        .frame(width: geometry.size.width, height: geometry.size.height)
+                        .frame(width: geometry.size.width, height: geometry.size.height)
                     }
                 }
                 .tabViewStyle(PageTabViewStyle())

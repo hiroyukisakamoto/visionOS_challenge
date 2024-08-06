@@ -8,5 +8,5 @@ struct ContentView: View {
 
 #Preview {
     ContentView()
-        .cornerRadius(46)
+    .cornerRadius(46)
 }

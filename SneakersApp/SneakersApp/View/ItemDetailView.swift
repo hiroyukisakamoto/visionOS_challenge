@@ -11,6 +11,7 @@ struct ItemDetailView: View {
     @State private var isRotating = 0.0
     // @State private var isDragging = false
     @State private var rotationAngle: Double = 22.5 // 初期角度を45度に設定
+
     
     @Environment(\.cartItemCount) var cartItemCount: Binding<Int>
     
@@ -89,7 +90,7 @@ struct ItemDetailView: View {
                     }
                     HStack(spacing: 20) {
                         Button(action: {
-                            cartItemCount.wrappedValue += 1
+                            print("カートに追加ボタンがタップされました")
                         }) {
                             Label("Add to Bag", systemImage: "bag")
                                 .font(Font.custom("SF Pro", size: 17).weight(.bold))
@@ -109,6 +110,7 @@ struct ItemDetailView: View {
                 Spacer()
             }
             .glassBackgroundEffect()
+            
         }
     }
     func getThumbPosition() -> CGFloat {

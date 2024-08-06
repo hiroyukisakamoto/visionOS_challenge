@@ -43,7 +43,7 @@ struct SplashChildView: View {
                     }
                 
             }
-            .frame(width: 1280, height: 720)
+             .frame(width: 1280, height: 720)
             .background(Color(red: 1, green: 0, blue: 0.08).opacity(0.9))
             .scaleEffect(scaleUp ? 1 : 0) // 初期スケールを0に設定
             .animation(.easeInOut(duration: 0.2).delay(1), value: scaleUp)

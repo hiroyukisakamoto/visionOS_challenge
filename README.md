@@ -7,3 +7,4 @@
 | 5   | LoadRemote3Dmodel + sound | <video src="https://github.com/user-attachments/assets/ede8f90f-0b2c-4323-b2f0-b7fe49ed5175"> |
 | 6   | Splash animation          |                       <img width="600" alt="" src="img/Capture/f.webp">                       |
 | 7   | Slider_and_BgVideo        |                                <video src="img/Capture/g.mov">                                |
+| 8   | ItemDetailView            |                       <img width="600" alt="" src="img/Capture/h.webp">                       |
