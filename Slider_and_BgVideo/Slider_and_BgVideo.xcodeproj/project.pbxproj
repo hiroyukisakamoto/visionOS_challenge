@@ -1,0 +1,419 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		490C174C2C61C202003471B9 /* RealityKitContent in Frameworks */ = {isa = PBXBuildFile; productRef = 490C174B2C61C202003471B9 /* RealityKitContent */; };
+		490C174E2C61C202003471B9 /* Slider_and_BgVideoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 490C174D2C61C202003471B9 /* Slider_and_BgVideoApp.swift */; };
+		490C17572C61C203003471B9 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 490C17562C61C203003471B9 /* Preview Assets.xcassets */; };
+		490C17692C61C227003471B9 /* BackgroundImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 490C175E2C61C227003471B9 /* BackgroundImage.swift */; };
+		490C176A2C61C227003471B9 /* BackgroundVideo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 490C175F2C61C227003471B9 /* BackgroundVideo.swift */; };
+		490C176B2C61C227003471B9 /* HeaderButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 490C17602C61C227003471B9 /* HeaderButton.swift */; };
+		490C176C2C61C227003471B9 /* TextOverlay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 490C17612C61C227003471B9 /* TextOverlay.swift */; };
+		490C176D2C61C227003471B9 /* AccountView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 490C17632C61C227003471B9 /* AccountView.swift */; };
+		490C176E2C61C227003471B9 /* CartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 490C17642C61C227003471B9 /* CartView.swift */; };
+		490C176F2C61C227003471B9 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 490C17652C61C227003471B9 /* HomeView.swift */; };
+		490C17702C61C227003471B9 /* SearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 490C17662C61C227003471B9 /* SearchView.swift */; };
+		490C17712C61C227003471B9 /* SideTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 490C17672C61C227003471B9 /* SideTabView.swift */; };
+		490C17732C61C284003471B9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 490C17722C61C283003471B9 /* Assets.xcassets */; };
+		490C17752C61C2FD003471B9 /* nikeAirmax.mov in Resources */ = {isa = PBXBuildFile; fileRef = 490C17742C61C2FD003471B9 /* nikeAirmax.mov */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		490C17462C61C202003471B9 /* Slider_and_BgVideo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Slider_and_BgVideo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		490C174A2C61C202003471B9 /* RealityKitContent */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = RealityKitContent; sourceTree = "<group>"; };
+		490C174D2C61C202003471B9 /* Slider_and_BgVideoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Slider_and_BgVideoApp.swift; sourceTree = "<group>"; };
+		490C17562C61C203003471B9 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		490C17582C61C203003471B9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		490C175E2C61C227003471B9 /* BackgroundImage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BackgroundImage.swift; sourceTree = "<group>"; };
+		490C175F2C61C227003471B9 /* BackgroundVideo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BackgroundVideo.swift; sourceTree = "<group>"; };
+		490C17602C61C227003471B9 /* HeaderButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HeaderButton.swift; sourceTree = "<group>"; };
+		490C17612C61C227003471B9 /* TextOverlay.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextOverlay.swift; sourceTree = "<group>"; };
+		490C17632C61C227003471B9 /* AccountView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AccountView.swift; sourceTree = "<group>"; };
+		490C17642C61C227003471B9 /* CartView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CartView.swift; sourceTree = "<group>"; };
+		490C17652C61C227003471B9 /* HomeView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		490C17662C61C227003471B9 /* SearchView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchView.swift; sourceTree = "<group>"; };
+		490C17672C61C227003471B9 /* SideTabView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SideTabView.swift; sourceTree = "<group>"; };
+		490C17722C61C283003471B9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = ../../../SneakersApp/SneakersApp/Assets.xcassets; sourceTree = "<group>"; };
+		490C17742C61C2FD003471B9 /* nikeAirmax.mov */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; path = nikeAirmax.mov; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		490C17432C61C202003471B9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				490C174C2C61C202003471B9 /* RealityKitContent in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		490C173D2C61C202003471B9 = {
+			isa = PBXGroup;
+			children = (
+				490C17482C61C202003471B9 /* Slider_and_BgVideo */,
+				490C17492C61C202003471B9 /* Packages */,
+				490C17472C61C202003471B9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		490C17472C61C202003471B9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				490C17462C61C202003471B9 /* Slider_and_BgVideo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		490C17482C61C202003471B9 /* Slider_and_BgVideo */ = {
+			isa = PBXGroup;
+			children = (
+				490C17622C61C227003471B9 /* Struct */,
+				490C17682C61C227003471B9 /* View */,
+				490C174D2C61C202003471B9 /* Slider_and_BgVideoApp.swift */,
+				490C17742C61C2FD003471B9 /* nikeAirmax.mov */,
+				490C17722C61C283003471B9 /* Assets.xcassets */,
+				490C17582C61C203003471B9 /* Info.plist */,
+				490C17552C61C203003471B9 /* Preview Content */,
+			);
+			path = Slider_and_BgVideo;
+			sourceTree = "<group>";
+		};
+		490C17492C61C202003471B9 /* Packages */ = {
+			isa = PBXGroup;
+			children = (
+				490C174A2C61C202003471B9 /* RealityKitContent */,
+			);
+			path = Packages;
+			sourceTree = "<group>";
+		};
+		490C17552C61C203003471B9 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				490C17562C61C203003471B9 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		490C17622C61C227003471B9 /* Struct */ = {
+			isa = PBXGroup;
+			children = (
+				490C175E2C61C227003471B9 /* BackgroundImage.swift */,
+				490C175F2C61C227003471B9 /* BackgroundVideo.swift */,
+				490C17602C61C227003471B9 /* HeaderButton.swift */,
+				490C17612C61C227003471B9 /* TextOverlay.swift */,
+			);
+			path = Struct;
+			sourceTree = "<group>";
+		};
+		490C17682C61C227003471B9 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				490C17632C61C227003471B9 /* AccountView.swift */,
+				490C17642C61C227003471B9 /* CartView.swift */,
+				490C17652C61C227003471B9 /* HomeView.swift */,
+				490C17662C61C227003471B9 /* SearchView.swift */,
+				490C17672C61C227003471B9 /* SideTabView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		490C17452C61C202003471B9 /* Slider_and_BgVideo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 490C175B2C61C203003471B9 /* Build configuration list for PBXNativeTarget "Slider_and_BgVideo" */;
+			buildPhases = (
+				490C17422C61C202003471B9 /* Sources */,
+				490C17432C61C202003471B9 /* Frameworks */,
+				490C17442C61C202003471B9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Slider_and_BgVideo;
+			packageProductDependencies = (
+				490C174B2C61C202003471B9 /* RealityKitContent */,
+			);
+			productName = Slider_and_BgVideo;
+			productReference = 490C17462C61C202003471B9 /* Slider_and_BgVideo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		490C173E2C61C202003471B9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					490C17452C61C202003471B9 = {
+						CreatedOnToolsVersion = 15.4;
+					};
+				};
+			};
+			buildConfigurationList = 490C17412C61C202003471B9 /* Build configuration list for PBXProject "Slider_and_BgVideo" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 490C173D2C61C202003471B9;
+			productRefGroup = 490C17472C61C202003471B9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				490C17452C61C202003471B9 /* Slider_and_BgVideo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		490C17442C61C202003471B9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				490C17752C61C2FD003471B9 /* nikeAirmax.mov in Resources */,
+				490C17572C61C203003471B9 /* Preview Assets.xcassets in Resources */,
+				490C17732C61C284003471B9 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		490C17422C61C202003471B9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				490C176D2C61C227003471B9 /* AccountView.swift in Sources */,
+				490C17702C61C227003471B9 /* SearchView.swift in Sources */,
+				490C176E2C61C227003471B9 /* CartView.swift in Sources */,
+				490C174E2C61C202003471B9 /* Slider_and_BgVideoApp.swift in Sources */,
+				490C176A2C61C227003471B9 /* BackgroundVideo.swift in Sources */,
+				490C17712C61C227003471B9 /* SideTabView.swift in Sources */,
+				490C176B2C61C227003471B9 /* HeaderButton.swift in Sources */,
+				490C176F2C61C227003471B9 /* HomeView.swift in Sources */,
+				490C176C2C61C227003471B9 /* TextOverlay.swift in Sources */,
+				490C17692C61C227003471B9 /* BackgroundImage.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		490C17592C61C203003471B9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = xros;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				XROS_DEPLOYMENT_TARGET = 1.2;
+			};
+			name = Debug;
+		};
+		490C175A2C61C203003471B9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = xros;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+				XROS_DEPLOYMENT_TARGET = 1.2;
+			};
+			name = Release;
+		};
+		490C175C2C61C203003471B9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Slider_and_BgVideo/Preview Content\"";
+				DEVELOPMENT_TEAM = JXF8YR39X7;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "$(TARGET_NAME)/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.hiroyukisakamoto.Slider-and-BgVideo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "xros xrsimulator";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2,7";
+			};
+			name = Debug;
+		};
+		490C175D2C61C203003471B9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Slider_and_BgVideo/Preview Content\"";
+				DEVELOPMENT_TEAM = JXF8YR39X7;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "$(TARGET_NAME)/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.hiroyukisakamoto.Slider-and-BgVideo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "xros xrsimulator";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2,7";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		490C17412C61C202003471B9 /* Build configuration list for PBXProject "Slider_and_BgVideo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				490C17592C61C203003471B9 /* Debug */,
+				490C175A2C61C203003471B9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		490C175B2C61C203003471B9 /* Build configuration list for PBXNativeTarget "Slider_and_BgVideo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				490C175C2C61C203003471B9 /* Debug */,
+				490C175D2C61C203003471B9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		490C174B2C61C202003471B9 /* RealityKitContent */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = RealityKitContent;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 490C173E2C61C202003471B9 /* Project object */;
+}

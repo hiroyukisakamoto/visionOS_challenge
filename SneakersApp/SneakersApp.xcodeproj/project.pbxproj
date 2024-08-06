@@ -17,13 +17,16 @@
 		4966BE262C5B7FBE00CE453F /* TextOverlay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4966BE252C5B7FBE00CE453F /* TextOverlay.swift */; };
 		4966BE2A2C5B808500CE453F /* BackgroundVideo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4966BE292C5B808500CE453F /* BackgroundVideo.swift */; };
 		4966BE2C2C5B80DC00CE453F /* BackgroundImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4966BE2B2C5B80DC00CE453F /* BackgroundImage.swift */; };
-		4966BE2F2C5C7D2A00CE453F /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4966BE2E2C5C7D2A00CE453F /* MainView.swift */; };
-		4984BDF12C52276F007D7B41 /* SplashView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4984BDF02C52276F007D7B41 /* SplashView.swift */; };
+		4966BE2F2C5C7D2A00CE453F /* SideTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4966BE2E2C5C7D2A00CE453F /* SideTabView.swift */; };
+		4984BDF12C52276F007D7B41 /* SplashParentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4984BDF02C52276F007D7B41 /* SplashParentView.swift */; };
 		498976B72C51FDEA00C339F9 /* RealityKitContent in Frameworks */ = {isa = PBXBuildFile; productRef = 498976B62C51FDEA00C339F9 /* RealityKitContent */; };
 		498976BF2C51FDEC00C339F9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 498976BE2C51FDEC00C339F9 /* Assets.xcassets */; };
 		498976C22C51FDEC00C339F9 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 498976C12C51FDEC00C339F9 /* Preview Assets.xcassets */; };
 		498976CC2C5219D200C339F9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 498976BA2C51FDEA00C339F9 /* ContentView.swift */; };
+		499B92B92C60ABC600B98696 /* sneaker_pegasustrail.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 499B92B82C60ABC600B98696 /* sneaker_pegasustrail.usdz */; };
 		49B5F31B2C5CD5A6008CDB3F /* HeaderButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49B5F31A2C5CD5A5008CDB3F /* HeaderButton.swift */; };
+		49E182DA2C60D4FC00ABFD46 /* PageControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49E182D92C60D4FC00ABFD46 /* PageControl.swift */; };
+		49E182DC2C60D57E00ABFD46 /* PageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49E182DB2C60D57E00ABFD46 /* PageViewController.swift */; };
 		49E37C152C538A950007360F /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49E37C142C538A950007360F /* HomeView.swift */; };
 /* End PBXBuildFile section */
 
@@ -38,15 +41,18 @@
 		4966BE252C5B7FBE00CE453F /* TextOverlay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextOverlay.swift; sourceTree = "<group>"; };
 		4966BE292C5B808500CE453F /* BackgroundVideo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundVideo.swift; sourceTree = "<group>"; };
 		4966BE2B2C5B80DC00CE453F /* BackgroundImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundImage.swift; sourceTree = "<group>"; };
-		4966BE2E2C5C7D2A00CE453F /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
-		4984BDF02C52276F007D7B41 /* SplashView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashView.swift; sourceTree = "<group>"; };
+		4966BE2E2C5C7D2A00CE453F /* SideTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideTabView.swift; sourceTree = "<group>"; };
+		4984BDF02C52276F007D7B41 /* SplashParentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashParentView.swift; sourceTree = "<group>"; };
 		498976B12C51FDEA00C339F9 /* SneakersApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SneakersApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		498976B52C51FDEA00C339F9 /* RealityKitContent */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = RealityKitContent; sourceTree = "<group>"; };
 		498976BA2C51FDEA00C339F9 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		498976BE2C51FDEC00C339F9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		498976C12C51FDEC00C339F9 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		498976C32C51FDEC00C339F9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		499B92B82C60ABC600B98696 /* sneaker_pegasustrail.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = sneaker_pegasustrail.usdz; sourceTree = "<group>"; };
 		49B5F31A2C5CD5A5008CDB3F /* HeaderButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderButton.swift; sourceTree = "<group>"; };
+		49E182D92C60D4FC00ABFD46 /* PageControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageControl.swift; sourceTree = "<group>"; };
+		49E182DB2C60D57E00ABFD46 /* PageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageViewController.swift; sourceTree = "<group>"; };
 		49E37C142C538A950007360F /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -70,6 +76,8 @@
 				4966BE2B2C5B80DC00CE453F /* BackgroundImage.swift */,
 				4966BE292C5B808500CE453F /* BackgroundVideo.swift */,
 				4966BE252C5B7FBE00CE453F /* TextOverlay.swift */,
+				49E182D92C60D4FC00ABFD46 /* PageControl.swift */,
+				49E182DB2C60D57E00ABFD46 /* PageViewController.swift */,
 			);
 			path = Struct;
 			sourceTree = "<group>";
@@ -94,6 +102,7 @@
 		498976B32C51FDEA00C339F9 /* SneakersApp */ = {
 			isa = PBXGroup;
 			children = (
+				499B92B82C60ABC600B98696 /* sneaker_pegasustrail.usdz */,
 				4966BE2D2C5B814D00CE453F /* Struct */,
 				498976C92C52160000C339F9 /* View */,
 				495854282C5A46FB00A51746 /* SneakersAppApp.swift */,
@@ -125,9 +134,9 @@
 			children = (
 				498976BA2C51FDEA00C339F9 /* ContentView.swift */,
 				491BD0192C5A372A00885113 /* ItemDetailView.swift */,
-				4984BDF02C52276F007D7B41 /* SplashView.swift */,
+				4984BDF02C52276F007D7B41 /* SplashParentView.swift */,
 				49E37C142C538A950007360F /* HomeView.swift */,
-				4966BE2E2C5C7D2A00CE453F /* MainView.swift */,
+				4966BE2E2C5C7D2A00CE453F /* SideTabView.swift */,
 				49650AAD2C58D8BA00BF60EC /* AccountView.swift */,
 				49650AAB2C58D41600BF60EC /* CartView.swift */,
 				49650AA92C58CBD200BF60EC /* SearchView.swift */,
@@ -198,6 +207,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				49650AA62C58B1CD00BF60EC /* nikeAirmax.mov in Resources */,
+				499B92B92C60ABC600B98696 /* sneaker_pegasustrail.usdz in Resources */,
 				498976C22C51FDEC00C339F9 /* Preview Assets.xcassets in Resources */,
 				498976BF2C51FDEC00C339F9 /* Assets.xcassets in Resources */,
 			);
@@ -215,15 +225,17 @@
 				49650AAC2C58D41600BF60EC /* CartView.swift in Sources */,
 				49E37C152C538A950007360F /* HomeView.swift in Sources */,
 				491BD01A2C5A372A00885113 /* ItemDetailView.swift in Sources */,
+				49E182DA2C60D4FC00ABFD46 /* PageControl.swift in Sources */,
 				4966BE2C2C5B80DC00CE453F /* BackgroundImage.swift in Sources */,
 				4966BE262C5B7FBE00CE453F /* TextOverlay.swift in Sources */,
 				4966BE242C5B713B00CE453F /* EnvironmentKeys.swift in Sources */,
 				49650AAE2C58D8BA00BF60EC /* AccountView.swift in Sources */,
 				495854292C5A46FB00A51746 /* SneakersAppApp.swift in Sources */,
-				4984BDF12C52276F007D7B41 /* SplashView.swift in Sources */,
-				4966BE2F2C5C7D2A00CE453F /* MainView.swift in Sources */,
+				4984BDF12C52276F007D7B41 /* SplashParentView.swift in Sources */,
+				4966BE2F2C5C7D2A00CE453F /* SideTabView.swift in Sources */,
 				49B5F31B2C5CD5A6008CDB3F /* HeaderButton.swift in Sources */,
 				49650AAA2C58CBD200BF60EC /* SearchView.swift in Sources */,
+				49E182DC2C60D57E00ABFD46 /* PageViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -357,7 +369,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"SneakersApp/Preview Content\"";
-				DEVELOPMENT_TEAM = JXF8YR39X7;
+				DEVELOPMENT_TEAM = 9WD5876MRD;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "$(TARGET_NAME)/Info.plist";
@@ -383,7 +395,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"SneakersApp/Preview Content\"";
-				DEVELOPMENT_TEAM = JXF8YR39X7;
+				DEVELOPMENT_TEAM = 9WD5876MRD;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "$(TARGET_NAME)/Info.plist";

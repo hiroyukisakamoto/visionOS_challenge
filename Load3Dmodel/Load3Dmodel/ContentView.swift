@@ -7,7 +7,8 @@ struct ContentView: View {
     var body: some View {
         let soundPlayer = SoundPlayer()
         Model3D(url: modelURL){
-            model in model.resizable()
+            model in model
+                .resizable()
                 .aspectRatio(contentMode: .fit)
             //　.scaleEffect(0.5)
                 .phaseAnimator([false,true]){

@@ -16,6 +16,6 @@ struct BackgroundImage: View {
             .resizable()
             .frame(width: geometry.size.width, height: geometry.size.height)
             .scaledToFill()
-            .blur(radius: 5)
+            .blur(radius: 10)
     }
 }

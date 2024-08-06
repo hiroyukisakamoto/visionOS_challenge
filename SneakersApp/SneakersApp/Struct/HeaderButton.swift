@@ -1,48 +1,47 @@
-//
-//  HeaderButton.swift
-//  SneakersApp
-//
-//  Created by jetz on 2024/08/02.
-//
-
 import SwiftUI
 
 struct HeaderButton: View {
-    @State private var showDetailView = false
-    @State private var showItemDetail: Bool = false
     @Binding var isPlaying: Bool
     @Binding var isTextVisible: Bool
+    @Binding var isFullscreen: Bool
     
     let header: String
-    let geometry: GeometryProxy
     let index: Int
     
+    @State private var buttonPosition: CGPoint = .zero
+    
     var body: some View {
-        Button(action: {
-            if index == 0 {
-                showItemDetail = true
-                showDetailView = true
-            } else {
-                isTextVisible.toggle()
-                isPlaying.toggle()
-            }
-        }) {
-            Text(header.uppercased())
-                .font(Font.custom("Impact", size: min(geometry.size.width, geometry.size.height) / 7.5).weight(.medium))
-                .foregroundColor(Color.white)
-                .onTapGesture {
+        GeometryReader { geometry in
+            Button(action: {
+                if index == 0 {
+                    // Action for index 0
+                } else {
+                    isTextVisible.toggle()
                     isPlaying.toggle()
+                    isFullscreen.toggle()
                 }
-                .padding(EdgeInsets(
-                    top: 10,
-                    leading: 40,
-                    bottom: 10,
-                    trailing: 40
-                ))
+            }) {
+                Text(header.uppercased())
+                    .font(Font.custom("Impact", size: min(geometry.size.width, geometry.size.height) / 7.5).weight(.medium))
+                    .foregroundColor(Color.white)
+                    .padding(EdgeInsets(top: 10, leading: 40, bottom: 10, trailing: 40))
+            }
+            .buttonStyle(PlainButtonStyle())
+            .background(GeometryReader { geo in
+                Color.clear.preference(key: ViewPositionKey.self, value: geo.frame(in: .global).origin)
+            })
+            .onPreferenceChange(ViewPositionKey.self) { pos in
+                self.buttonPosition = pos
+                print("Button position: \(pos)")
+            }
         }
-        .fullScreenCover(isPresented: $showDetailView) {
-            ItemDetailView(showDetailView: $showDetailView)
-        }
-        .buttonStyle(PlainButtonStyle())
+    }
+}
+
+struct ViewPositionKey: PreferenceKey {
+    static var defaultValue: CGPoint = .zero
+    
+    static func reduce(value: inout CGPoint, nextValue: () -> CGPoint) {
+        value = nextValue()
     }
 }
