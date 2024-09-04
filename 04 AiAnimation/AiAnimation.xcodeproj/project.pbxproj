@@ -10,7 +10,6 @@
 		49C45B4D2C4E38FD00A02260 /* RealityKitContent in Frameworks */ = {isa = PBXBuildFile; productRef = 49C45B4C2C4E38FD00A02260 /* RealityKitContent */; };
 		49C45B4F2C4E38FD00A02260 /* AiAnimationApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49C45B4E2C4E38FD00A02260 /* AiAnimationApp.swift */; };
 		49C45B512C4E38FD00A02260 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49C45B502C4E38FD00A02260 /* ContentView.swift */; };
-		49C45B532C4E38FD00A02260 /* ImmersiveView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49C45B522C4E38FD00A02260 /* ImmersiveView.swift */; };
 		49C45B552C4E38FF00A02260 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 49C45B542C4E38FF00A02260 /* Assets.xcassets */; };
 		49C45B582C4E38FF00A02260 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 49C45B572C4E38FF00A02260 /* Preview Assets.xcassets */; };
 /* End PBXBuildFile section */
@@ -20,7 +19,6 @@
 		49C45B4B2C4E38FD00A02260 /* RealityKitContent */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = RealityKitContent; sourceTree = "<group>"; };
 		49C45B4E2C4E38FD00A02260 /* AiAnimationApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AiAnimationApp.swift; sourceTree = "<group>"; };
 		49C45B502C4E38FD00A02260 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		49C45B522C4E38FD00A02260 /* ImmersiveView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImmersiveView.swift; sourceTree = "<group>"; };
 		49C45B542C4E38FF00A02260 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		49C45B572C4E38FF00A02260 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		49C45B592C4E38FF00A02260 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -60,7 +58,6 @@
 			children = (
 				49C45B4E2C4E38FD00A02260 /* AiAnimationApp.swift */,
 				49C45B502C4E38FD00A02260 /* ContentView.swift */,
-				49C45B522C4E38FD00A02260 /* ImmersiveView.swift */,
 				49C45B542C4E38FF00A02260 /* Assets.xcassets */,
 				49C45B592C4E38FF00A02260 /* Info.plist */,
 				49C45B562C4E38FF00A02260 /* Preview Content */,
@@ -159,7 +156,6 @@
 			files = (
 				49C45B512C4E38FD00A02260 /* ContentView.swift in Sources */,
 				49C45B4F2C4E38FD00A02260 /* AiAnimationApp.swift in Sources */,
-				49C45B532C4E38FD00A02260 /* ImmersiveView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
