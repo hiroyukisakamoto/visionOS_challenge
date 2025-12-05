@@ -1,12 +1,31 @@
-| Day | Title                     |                                             image                                             |
-| :-- | :------------------------ | :-------------------------------------------------------------------------------------------: |
-| 1   | Hello World               |                       <img width="600" alt="" src="img/Capture/a.webp">                       |
-| 2   | objectRotate              |                       <img width="600" alt="" src="img/Capture/b.webp">                       |
-| 3   | objectRotate_inertia      |                       <img width="600" alt="" src="img/Capture/c.webp">                       |
-| 4   | Ai Animation              |                       <img width="600" alt="" src="img/Capture/d.webp">                       |
-| 5   | LoadRemote3Dmodel + sound |  <video loop src="https://github.com/user-attachments/assets/ede8f90f-0b2c-4323-b2f0-b7fe49ed5175"> |
-| 6   | SplashAnimation          |                       <img width="600" alt="" src="img/Capture/f.webp">                       |
-| 7   | Slider_and_BgVideo        |                                <video loop src="https://github.com/user-attachments/assets/d43767f3-fabe-4ebb-b6b1-a5431b3982c1">                                |
-| 8   | ItemDetailView            |                       <img width="600" alt="" src="img/Capture/h.webp">                       |
-| 9   | [UI Design](https://www.figma.com/design/AUx2AGFJUHC1imY0EKSxga/Sneakers?node-id=157-2815&t=upvz3Cl14WgpaaeF-1)          |                       <img width="600" alt="" src="img/Capture/i.webp"><img width="600" alt="" src="img/Capture/j.webp"><img width="600" alt="" src="img/Capture/k.webp"><img width="600" alt="" src="img/Capture/l.webp"><img width="600" alt="" src="img/Capture/m.webp"><img width="600" alt="" src="img/Capture/n.webp"><img width="600" alt="" src="img/Capture/o.webp"><img width="600" alt="" src="img/Capture/p.webp">                       |
-| 10   | Slider_BgVideo_SpatialVideo            |                       <video loop src="https://github.com/user-attachments/assets/2866dd0b-ed06-48b8-8a17-d0b19380800e">|
+# visionOS Challenge
+
+visionOS向けSwiftUIの学習サンプル集です。RealityKitによる3Dオブジェクト表示から、アニメーション、動画再生、UIデザインまで。
+
+## 環境
+
+- Xcode 15+
+- visionOS 1.0+
+- Swift 5.9+
+
+## サンプル一覧
+
+### 基礎サンプル
+
+| Day | Title | Description | Preview |
+| :-- | :---- | :---------- | :-----: |
+| 1 | Hello World | visionOSの基本的な「Hello World」表示 | <img width="600" alt="" src="img/Capture/a.webp"> |
+| 2 | objectRotate | Apple Vision Proモデルを3軸方向に回転。スライダーで特定の角度に調整可能 | <img width="600" alt="" src="img/Capture/b.webp"> |
+| 3 | objectRotate_inertia | Day 2のアップデート版。スライダーを等分割し、タップすると最寄りの分岐点へポインターが自動移動 | <img width="600" alt="" src="img/Capture/c.webp"> |
+| 4 | Ai Animation | AI応答時に表示するアニメーションモデル | <img width="600" alt="" src="img/Capture/d.webp"> |
+| 5 | LoadRemote3Dmodel + sound | 3Dモデルのランダム回転とサウンドの同時再生 | <video loop src="https://github.com/user-attachments/assets/ede8f90f-0b2c-4323-b2f0-b7fe49ed5175"> |
+
+### ECアプリサンプル（仮想クライアント: Nike）
+
+| Day | Title | Description | Preview |
+| :-- | :---- | :---------- | :-----: |
+| 6 | SplashAnimation | スプラッシュスクリーンのデモ | <img width="600" alt="" src="img/Capture/f.webp"> |
+| 7 | Slider_and_BgVideo | TOPページを想定したスライダーと背景動画の実装例 | <video loop src="https://github.com/user-attachments/assets/d43767f3-fabe-4ebb-b6b1-a5431b3982c1"> |
+| 8 | ItemDetailView | スニーカーの商品詳細ページ実装例 | <img width="600" alt="" src="img/Capture/h.webp"> |
+| 9 | [UI Design](https://www.figma.com/design/AUx2AGFJUHC1imY0EKSxga/Sneakers?node-id=157-2815&t=upvz3Cl14WgpaaeF-1) | 全体のUIデザイン案と実装例 | <img width="600" alt="" src="img/Capture/i.webp"><img width="600" alt="" src="img/Capture/j.webp"><img width="600" alt="" src="img/Capture/k.webp"><img width="600" alt="" src="img/Capture/l.webp"><img width="600" alt="" src="img/Capture/m.webp"><img width="600" alt="" src="img/Capture/n.webp"><img width="600" alt="" src="img/Capture/o.webp"><img width="600" alt="" src="img/Capture/p.webp"> |
+| 10 | Slider_BgVideo_SpatialVideo | Day 6を空間ビデオ用にアップデートした実装例 | <video loop src="https://github.com/user-attachments/assets/2866dd0b-ed06-48b8-8a17-d0b19380800e"> |
