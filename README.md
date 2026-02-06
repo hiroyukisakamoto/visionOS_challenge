@@ -1,6 +1,6 @@
 # visionOS Challenge
 
-visionOS向けSwiftUIの学習サンプル集です。RealityKitによる3Dオブジェクト表示から、アニメーション、動画再生、UIデザインまで。
+デザイナーから始める、visionOS SwiftUI 事始めサンプル集。
 
 ## 環境
 
