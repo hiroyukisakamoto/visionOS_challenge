@@ -1,6 +1,6 @@
 # visionOS Challenge
 
-デザイナーから始める、visionOS SwiftUI 事始めサンプル集。
+デザイナーから始めるvisionOS SwiftUI 事始めサンプル集。
 
 ## 目次
 
