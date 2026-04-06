@@ -1,6 +1,6 @@
 # visionOS Challenge
 
-デザイナーから始めるvisionOS SwiftUI 事始めサンプル集。
+*デザイナーから始めるvisionOS SwiftUI 事始めサンプル集。*
 
 デザイナー視点で、visionOSの空間UIを学びやすく整理した実装チャレンジです。
 visionOSのUIや表現を、複雑な完成品としてではなく、基礎→応用の順で小さなサンプルに分解して実装しました。
